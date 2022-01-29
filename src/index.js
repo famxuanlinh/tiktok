@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';  //Nạp thư viện react
+import ReactDOM from 'react-dom';  // Nạp thư viện react-dom 
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+console.log(React);
 ReactDOM.render(
   <React.StrictMode>
     <App />
