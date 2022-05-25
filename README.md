@@ -11,10 +11,14 @@
         - npm i --global create-react-app
         - npm i -g create-react-app
 
-- NPX
+- NPX  //Cài thư viện tạm thời, sau khi dùng xong sẽ tự xoá đi
     -Tsao dùng NPX?
     - Gặp lỗi khi: npx create-react-app tiktok
-- YARN & NPM
+- YARN & NPM  //Yet Another Resource Negotiator
 - YARN install
 - Lưu ý :
     - Luôn bật development server (npm start || yarn start)
+
+
+- node-modules - Lưu tất cả các thư viện mình sử dụng
+- public - Thư mục gốc

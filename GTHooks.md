@@ -1,7 +1,16 @@
 // Sử dụng hooks, hỗ trợ thêm nhiều tính năng
 function ComponentB(){
-    // useState
+    // useState - Khi muốn dữ liêu jthay đổi thi giao diện tự động update( render lại theo dữ liệu)
     const [state, setStake] = useState(initState)
+        // Cách dùng
+        ```jsx
+        import { useState } from 'react'
+        function Component(){
+            const [state, setState] = useState(initState) 
+            // initState - giá trị khởi tạo (chỉ dùng cho lần đầu)
+            ...
+        }
+        ```
 
     //useEffect
     useEffect(() => {
