@@ -1,15 +1,17 @@
-import React from 'react';  //Nạp thư viện react
-import ReactDOM from 'react-dom';  // Nạp thư viện react-dom 
-import './index.css';
+import React from 'react'; //Nạp thư viện react
+import ReactDOM from 'react-dom'; // Nạp thư viện react-dom
 import App from './App';
+import GlobalStyles from '~/components/GlobalStyles';
 // import reportWebVitals from './reportWebVitals';
 
 console.log(React);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <GlobalStyles>
+            <App />
+        </GlobalStyles>
+    </React.StrictMode>,
+    document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
