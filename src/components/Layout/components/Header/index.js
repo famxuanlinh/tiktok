@@ -54,9 +54,7 @@ const Header = () => {
                 </Tippy>
                 <div className={cx('actions')}>
                     <Button text>Upload</Button>
-                    <Button outline rounded>
-                        Log in
-                    </Button>
+                    <Button primary>Log in</Button>
                 </div>
             </div>
         </header>
