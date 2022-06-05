@@ -4,7 +4,6 @@ import App from './App';
 import GlobalStyles from '~/components/GlobalStyles';
 // import reportWebVitals from './reportWebVitals';
 
-console.log(React);
 ReactDOM.render(
     <React.StrictMode>
         <GlobalStyles>
