@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import styles from './AccountItem.module.scss';
@@ -23,4 +23,7 @@ const AccountItem = ({ data }) => {
     );
 };
 
+AccountItem.propTypes = {
+    data: PropTypes.object,
+};
 export default AccountItem;
