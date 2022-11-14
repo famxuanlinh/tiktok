@@ -24,6 +24,10 @@
         background-color: rgba(22, 24, 35, 0.03);
     }
 }
+.icon,
+.active-icon {
+    display: flex;
+}
 
 .title {
     margin-left: 10px;
