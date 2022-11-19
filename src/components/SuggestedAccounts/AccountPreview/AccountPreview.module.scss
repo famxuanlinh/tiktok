@@ -11,13 +11,16 @@
     height: 44px;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .follow-btn {
     padding: 6px 16px;
+    cursor: pointer;
 }
 
 .info {
+    cursor: pointer;
     flex: 1;
 }
 
@@ -26,6 +29,7 @@
     font-weight: normal;
     color: #161823;
     margin-top: 0;
+    cursor: pointer;
     line-height: 1;
 }
 
@@ -37,6 +41,7 @@
 
 .username {
     font-size: 1.4rem;
+    cursor: pointer;
     color: rgba(22, 24, 35, 0.5);
 }
 

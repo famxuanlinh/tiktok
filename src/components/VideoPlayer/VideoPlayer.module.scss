@@ -1,0 +1,148 @@
+.wrapper {
+    display: flex;
+    padding: 20px 0;
+}
+
+.inner {
+    max-width: 486px;
+    margin-left: 12px;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.check {
+    margin-left: 6px;
+    color: rgb(32, 213, 236);
+    font-size: 1.4rem;
+}
+
+.username {
+    margin-left: 6px;
+    font-size: 1.4rem;
+    color: rgba(22, 24, 35, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.inner-music {
+    margin-left: 5px;
+    font-weight: 700;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.video-player {
+    display: flex;
+}
+
+.video-content {
+    border-radius: 8px;
+    position: relative;
+    width: 287px;
+    height: 512px;
+    border-radius: 8px;
+    background-color: gray;
+
+    &:hover {
+        // .btn-play {
+        //     display: flex;
+        // }
+
+        .btn-report {
+            display: flex;
+        }
+
+        .btn-volume {
+            display: flex;
+        }
+    }
+}
+
+video {
+    border-radius: 8px;
+}
+
+.btn-play {
+    position: absolute;
+    bottom: 30px;
+    left: 26px;
+    color: var(--white);
+    font-size: 2rem;
+}
+.btn-volume {
+    display: none;
+    position: absolute;
+    color: black;
+    font-size: 2rem;
+
+    bottom: 30px;
+    color: var(--white);
+    right: 26px;
+}
+.btn-report {
+    display: none;
+    color: var(--white);
+    position: absolute;
+    top: 30px;
+    right: 26px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 18px;
+}
+
+.btn-video {
+    background-color: transparent;
+}
+
+.btn-video-item {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1618230f;
+    margin: 8px 0 6px 0;
+}
+
+.like-count {
+    font-size: 1.2rem;
+}
+
+.follow-btn {
+    height: 28px;
+    color: var(--primary);
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fe2c550f;
+        border-color: var(--primary);
+        color: var(--primary);
+        // opacity: 0.1;
+    }
+}
+
+.hr-video {
+    // height: 1px;
+    background-color: #16182333;
+    opacity: 0.3;
+}
